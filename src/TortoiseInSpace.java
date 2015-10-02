@@ -22,13 +22,26 @@ public class TortoiseInSpace implements KeyEventDispatcher {
 		//0. Print out the keyPressed variable and write down the numbers for each arrow 
 		System.out.println(keyPressed);
 		// 1. If the up arrow is pressed, move the Tortoise up the screen.
-		//if(keyPressed==38 )
+		if(keyPressed==38 ){
+		Tortoise.move(15);
+		}
 		//2. If the down arrow is pressed, move the Tortoise down.
-		//if(keyPressed==moveleft
+		if(keyPressed==40){
+		Tortoise.move(-15);
+		}
 		// 3. If the left arrow is pressed, make the tortoise go left. Hint: Make sure to end with the Tortoise facing UP.
-		
+		if(keyPressed==37){
+			Tortoise.turn(270);
+		Tortoise.move(15);
+		Tortoise.turn(90);
+		}
 		// 4. If right is pressed, move the Tortoise right.
+		if(keyPressed==39){
+		Tortoise.turn(90);
+		Tortoise.move(15);
+		Tortoise.turn(270);
 		
+		}
 		// 5. Then move the Tortoise to RD-2D for a surprise! 
 	}
 
