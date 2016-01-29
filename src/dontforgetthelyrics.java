@@ -34,7 +34,7 @@ if(Song.equals("You should beware, beware, beware of a women with a broken heart
 	JOptionPane.showMessageDialog(null, "Nice!");
 }
 else{
-	JOptionPane.showInputDialog("wrong,You should beware, beware, beware of a women with a broken heart");
+	JOptionPane.showMessageDialog(null, "wrong,You should beware, beware, beware of a women with a broken heart");
 	
 }
 			// 8. Otherwise, tell them they are wrong, and give them the answer.
