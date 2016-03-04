@@ -22,11 +22,11 @@ public class secretmessagebox {
 	String Passcodes= JOptionPane.showInputDialog("What's the passcode?");
 	// 4. If the passcode matches, show the secret message
 	System.out.println(Passcodes+passcode);
-	if(Passcodes==passcode){
+	if(Passcodes.equals(passcode)){
 	JOptionPane.showMessageDialog(null, Message);
 	}
 	// 5. If the passcode does not match, pop-up "INTRUDER!!"
-	if(Passcodes!=passcode){
+	else{
 		JOptionPane.showMessageDialog(null, "Intruder!!!");
 	}
 	}
