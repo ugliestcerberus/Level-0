@@ -22,7 +22,7 @@ public class NasacountDown {
 		int timer = Integer.parseInt(Time);
 		System.out.println(timer);
 		for (int i = timer; i > 0; i--) {
-			System.out.println("Blast Off in " + i);
+			speak("Blast Off in " + i);
 		}
 		System.out.println("Rocket is blasting off!");
 
